@@ -4,8 +4,8 @@ from datetime import date
 from dotenv import load_dotenv
 from langchain.tools import tool
 
-from agent.data import users_data
-from agent.objects import PurchaseItem
+from agents.data import users_data
+from agents.objects import PurchaseItem
 
 load_dotenv()
 
