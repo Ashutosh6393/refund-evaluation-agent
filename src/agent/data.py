@@ -1,5 +1,12 @@
+from typing import TypedDict
 
-users_data = {
+
+class PurchaseRecord(TypedDict):
+    price: int
+    date: str
+
+
+users_data: dict[str, dict[str, PurchaseRecord]] = {
     "user123": {
         "book": {
             "price": 23,

@@ -1,7 +1,6 @@
 from pydantic import BaseModel, Field
 
 
-
 class Answer(BaseModel):
 
     answer: str = Field(description="The answer that is needed for ther user question")
